@@ -1,0 +1,51 @@
+name: demo_app
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  cached_network_image: ^3.1.0
+  cloud_firestore: ^2.2.2
+  conditional_builder: ^1.0.2
+  cupertino_icons: ^1.0.2
+  firebase_auth: ^3.1.0
+  firebase_core: ^1.6.0
+  firebase_storage: ^10.0.3
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^7.2.0
+  font_awesome_flutter: ^9.1.0
+  geolocator: ^7.6.2
+  google_maps_flutter: ^2.0.10
+  image_picker: ^0.8.4
+  material_floating_search_bar: ^0.3.4
+  pin_code_fields: ^7.3.0
+  shared_preferences: ^2.0.8
+  url_launcher: ^6.0.12
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/Lato-Regular.ttf
+    - family: jannah
+      fonts:
+        - asset: assets/fonts/jannah.ttf
+    - family: IconBroken
+      fonts:
+        - asset: assets/icons/icons.ttf
